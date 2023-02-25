@@ -1,0 +1,30 @@
+{
+    "assets": [
+        {
+            "src": "../assets/carousel-1.jpg",
+            "index": 0,
+            "url": "https://source.unsplash.com/CQfNt66ttZM",
+            "author": "https://unsplash.com/@dncerullo"
+        },
+        {
+            "src":"../assets/carousel-2.jpg",
+            "index": 1,
+            "url": "https://source.unsplash.com/WvDYdXDzkhs",
+            "author": "https://unsplash.com/photos/WvDYdXDzkhs"
+        },
+
+        {
+            "src":"../assets/carousel-3.jpg",
+            "index": 3,
+            "url": "https://source.unsplash.com/9MR78HGoflw" ,
+            "author": "https://unsplash.com/@javisaurio"
+        },
+
+        {
+            "src":"../assets/carousel-4.jpg",
+            "index": 4,
+            "url": "https://source.unsplash.com/FodEsaNZs48",
+            "author": "https://unsplash.com/@luisvidal_18"
+        }
+    ]
+}

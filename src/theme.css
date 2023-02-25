@@ -1,0 +1,15 @@
+body {
+    color: black;
+    /* mix-blend-mode: difference; */
+
+}
+
+.title {
+    font-size: 80pt;
+    border-style: solid;
+    color: whitesmoke;
+}
+
+.black-transparent-bg {
+    background-color: rgba(0, 0, 0, 0.75);
+}

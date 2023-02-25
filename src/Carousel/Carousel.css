@@ -1,0 +1,51 @@
+.outer-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    margin: auto;
+    width: 600px;
+    max-width: 75%;
+}
+
+.carousel-container {
+    margin: auto;
+}
+
+.chevron {
+    border-style: solid;
+    width: 2%%;
+    /* height: 50%; */
+    border-color: black;
+    background-color: black;
+}
+
+.chevron:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.carousel-image {
+    position: relative;
+    border-style: solid;
+    border-color: white;
+    height: 800px;
+    width: 800px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 800px) {
+    .carousel-image {
+        position: relative;
+        height: 200px ;
+        width: 300px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .carousel-image {
+        height: 150px;
+        width: 200px;
+        object-fit: cover;
+    }
+}

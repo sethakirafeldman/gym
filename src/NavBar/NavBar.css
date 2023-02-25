@@ -1,0 +1,87 @@
+/* Navbar */
+#navigation-bar {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-basis: auto;
+    color: white;
+    /* border-style: solid; */
+    height: 100%;
+}
+
+#nav-buttons > button {
+    display: inline-block;
+    padding: 15px;
+    font-size: larger;
+    border-style: solid;
+    /* border-color: white; */
+    background-color: black;
+    color: white;
+}
+
+#nav-buttons > button:hover {
+    background-color: grey;
+    color: black;
+}
+
+#hamburger-menu {
+    display: none;
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100px;
+}
+
+.hamburger-icon:hover{
+    background-color: grey;
+}
+
+#hamburger-items > .hidden {
+    display: none;
+}
+
+#hamburger-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.hamburger-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin: 0;
+}
+
+.hamburger-list > button {
+    font-size: larger;
+    width: 100%;
+    border-style: solid; 
+    border-color: white;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width:900px) {
+    /* hide main menu when less than above val */
+    #nav-buttons {
+        display: none;
+    }
+    /* show hamburger menu when less than above val */
+    #hamburger-menu{
+        display: block;
+        position: absolute;
+        left:0;
+        top:0;
+    }
+}
+
+.hamburger-icon {
+    padding: 25px;
+}
+
+
+/* Buttons */
+button:hover {
+    background-color: grey;
+    color: black;
+}

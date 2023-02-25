@@ -1,0 +1,37 @@
+{
+    "home":[
+     {
+         "id": 1 ,
+         "name": "Home",
+         "text": "At Iron Haven Fitness, we believe that fitness is not just about physical strength, but also mental toughness and a positive attitude. That's why our experienced trainers are here to guide you every step of the way, helping you to stay motivated and focused on your goals.Our facility features top-of-the-line equipment, including cardio machines, weightlifting equipment, and functional training tools. We also offer a variety of group fitness classes to keep your workouts exciting and challenging. But our commitment to your success doesn't stop when you leave the gym. We provide personalized nutrition and training plans to help you stay on track outside of the gym as well. Join us at Iron Haven Fitness and take the first step towards a stronger, healthier, and happier you. Your fitness journey starts here."
+    }
+    ],
+    "about":[
+        {
+            "id": 2 ,
+            "name": "About",
+            "text": "Sed accumsan consequat interdum. Maecenas feugiat luctus magna, a consequat mi euismod in. Nullam vulputate ante vel eros ultricies semper. Cras non auctor nisl, rutrum tempus ipsum. Maecenas sit amet vulputate elit, quis malesuada augue. Vivamus accumsan justo justo, sed ullamcorper elit commodo id. Maecenas maximus sem sed sapien vehicula consequat. Aenean fringilla, massa non lobortis tempor, nibh leo sollicitudin sapien, a luctus nisi nisl id erat."
+       } 
+    ],
+    "services": [
+        {
+            "id": 3 ,
+            "name": "Services",
+            "text": ""
+       }
+    ],
+    "booking": [
+        {
+            "id":4,
+            "name":"Booking",
+            "text":"Below is a placeholder."
+        }
+    ],
+    "location": [
+        {
+            "id":5,
+            "name": "Location",
+            "text": "Below is a placeholder."
+        }
+    ]
+}
