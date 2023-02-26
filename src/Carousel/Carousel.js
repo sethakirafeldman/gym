@@ -1,6 +1,5 @@
 import React from 'react';
-import chevronR from '../../public/assets/chevron-right.png';
-import chevronL from '../../public/assets/chevron-left.png';
+
 import images from './images.json';
 import './Carousel.css';
 
