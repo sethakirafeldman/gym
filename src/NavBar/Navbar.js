@@ -19,33 +19,27 @@ export default function Navbar ({handleClick}) {
                     value={item[0].name.toLowerCase()}>{item[0].name}
                 </button>)
         })
+
     const toggleMenu = () => {
         !showMenu ? setShowMenu(true) : setShowMenu(false);
     }
 
     return (
-
         <nav id='navigation-bar'>
-
-            <div id='nav-buttons'>
-                {genBtns}
-            </div>
-            <div id='hamburger-menu'>
-                <div id ="hamburger-items">
-                <FontAwesomeIcon
-                    icon={faBars}
-                    size="xl"
-                    className="hamburger-icon"
-                    onMouseEnter={toggleMenu}
-                />
-                    <div
-                        className={showMenu ? "hamburger-list" : "hamburger-list hidden"}
-                        onMouseLeave={toggleMenu}>
-                        {genBtns}
-                    </div>
-                </div>
-            </div>
+            <section id='nav-buttons'>{genBtns}</section>
+                <menu id='hamburger-menu' >
+                    <section id ="hamburger-items" onMouseEnter = {toggleMenu} onMouseLeave = {toggleMenu} >
+                        <FontAwesomeIcon
+                            icon={faBars}
+                            size="xl"
+                            className="hamburger-icon"
+                        />
+                        <section
+                            className = {showMenu ? "hamburger-list" : "hamburger-list hidden"}>
+                            {genBtns}
+                        </section>
+                    </section>
+                </menu>
         </nav>
-
     )
 }

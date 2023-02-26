@@ -13,7 +13,7 @@ export default function About() {
     </>
 
     return (
-        <section className = 'about black-transparent-bg'>
+        <section id = 'about' className ='sm-spacer'>
             <section className ='left-align'>
             <h2>About Us</h2>
             {aboutText}

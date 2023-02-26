@@ -25,15 +25,21 @@
 }
 
 #hamburger-menu {
+    /* needed in order to hide/show */
     display: none;
     position: absolute;
     left:0;
     top:0;
     width: 100px;
+    z-index: 2;
+}
+
+.hamburger-icon {
+    padding: 25px;
 }
 
 .hamburger-icon:hover{
-    background-color: grey;
+    color: grey;
 }
 
 #hamburger-items > .hidden {
@@ -69,18 +75,13 @@
     /* show hamburger menu when less than above val */
     #hamburger-menu{
         display: block;
-        position: absolute;
-        left:0;
-        top:0;
+        /* position: absolute; */
+        /* left:0; */
+        /* top:0; */
     }
 }
 
-.hamburger-icon {
-    padding: 25px;
-}
-
-
-/* Buttons */
+/* Buttons hover*/
 button:hover {
     background-color: grey;
     color: black;

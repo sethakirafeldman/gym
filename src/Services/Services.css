@@ -1,0 +1,15 @@
+#services {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color:var(--black-transparent);
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    padding: 2%;
+}
+
+#services > table {
+    width: fit-content;
+    margin: auto;
+}

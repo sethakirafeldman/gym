@@ -1,15 +1,22 @@
+:root {
+    --black-transparent: rgba(0, 0, 0, 0.75);
+}
+
+.sm-spacer {
+    margin-top: 2%;
+}
+
 body {
     color: black;
-    /* mix-blend-mode: difference; */
+}
 
+.bold {
+    font-weight: bold;
 }
 
 .title {
     font-size: 80pt;
+    background-color: black;
     border-style: solid;
     color: whitesmoke;
-}
-
-.black-transparent-bg {
-    background-color: rgba(0, 0, 0, 0.75);
 }

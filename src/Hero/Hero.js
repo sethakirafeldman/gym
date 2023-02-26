@@ -3,7 +3,7 @@ import './Hero.css';
 
 export default function Hero({children}) {
     return (
-        <section className ='banner black-transparent-bg'>
+        <section className ='banner sm-spacer' id = 'hero'>
         <img className ='banner-img' src = 'https://source.unsplash.com/zfPOelmDc-M' alt ='close up of deadlift grip' />
         <section className = 'text-vertical'>
             <h2>Welcome to your new Iron Haven</h2>

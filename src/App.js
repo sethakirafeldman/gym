@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import "./style.css";
 import './theme.css';
 
@@ -8,23 +8,26 @@ import Carousel from './Carousel/Carousel.js';
 const data = require('./data.json');
 
 export default function App() {
-    
-    const [currentPage, setCurrentPage] = React.useState("home");
-    
+
+    const [currentPage, setCurrentPage] = useState("home");
+
     const handleClick = () => {
-        setCurrentPage(event.target.value);
+        // scroll to anchor point
+        let activeEl = document.getElementById(event.target.value);
+
+        if (activeEl !== null) {
+            activeEl.scrollIntoView({behavior:'smooth'});
+            activeEL = '';
+        }
     }
 
     return(
     <>
         <Navbar 
             handleClick= {handleClick}
-            currentPage = {currentPage}
         />
-        <Main 
-            pageName = {data[currentPage][0].name}
+        <Main
             handleClick = {handleClick}
-            text = {data[currentPage][0].text}
         />
 
         <Carousel />

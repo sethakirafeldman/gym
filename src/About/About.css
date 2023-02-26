@@ -1,4 +1,4 @@
-.about {
+#about {
     display: flex;
     width: 100vw;
     padding: 2%;
@@ -6,10 +6,10 @@
     text-align: left;
     min-height: fit-content;
     justify-content: center;
-    margin-top: 2%;
+    background-color: var(--black-transparent);
 }
 
- .about > p {
+ #about > p {
     font-size: 15px;
     width: 50%;
 }
