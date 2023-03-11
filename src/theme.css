@@ -15,7 +15,8 @@ body {
 }
 
 .title {
-    font-size: 80pt;
+    margin-top: 80px;
+    font-size: 10vw;
     background-color: black;
     border-style: solid;
     color: whitesmoke;

@@ -35,19 +35,19 @@
     padding: 0;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width:850px) {
     .carousel-image {
         position: relative;
-        height: 200px ;
-        width: 300px;
+        height:400px;
+        width: 400px;
         object-fit: cover;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .carousel-image {
-        height: 150px;
-        width: 200px;
+        height: 300px;
+        width: 300px;
         object-fit: cover;
     }
 }

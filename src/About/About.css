@@ -1,11 +1,11 @@
 #about {
-    display: flex;
+    /* display: flex;
     width: 100vw;
     padding: 2%;
     padding: 2%;
     text-align: left;
     min-height: fit-content;
-    justify-content: center;
+    justify-content: center; */
     background-color: var(--black-transparent);
 }
 

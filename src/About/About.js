@@ -13,12 +13,14 @@ export default function About() {
     </>
 
     return (
-        <section id = 'about' className ='sm-spacer'>
+        <section id = 'about' className ='sm-spacer banner'>
             <section className ='left-align'>
             <h2>About Us</h2>
             {aboutText}
             </section>
-            <img src = {imgSrc} alt ='dumbbell rack' />
+            <section className ='img-container'>
+            <img className = 'banner-img' src = {imgSrc} alt ='dumbbell rack' />
+            </section>
         </section>
     )
 }

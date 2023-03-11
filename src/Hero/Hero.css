@@ -2,26 +2,12 @@
     background-color: var(--black-transparent);
 }
 
-.banner {
-    display: flex;
-    width: 100vw;
-    align-items: center;
-    /* height: 300px; */
-    padding: 2%;
-    border-color: white;
-    /* margin-top: 100px; */
-    min-height: fit-content;
-}
-
-.banner-img {
-    height: 25em
-}
-
 .banner > .text-vertical {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-start; */
     padding: 5%;
     text-align: left;
+    font-size: 2vw;
 }
