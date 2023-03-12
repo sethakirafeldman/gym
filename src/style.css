@@ -59,14 +59,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50vw;
-    font-size:2vw;
+    width: 80%;
 }
 
 .right-align {
     display: flex;
     justify-content: center;
-    width: 50vw;
+    width: 80%;
 }
 
 .booking {
