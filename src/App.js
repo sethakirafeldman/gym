@@ -2,9 +2,11 @@ import React, {useState, useEffect} from 'react';
 import "./style.css";
 import './theme.css';
 
-import Navbar from "./NavBar/Navbar";
-import Main from './Main/Main';
+import Navbar from "./NavBar/Navbar.js";
+import Main from './Main/Main.js';
 import Carousel from './Carousel/Carousel.js';
+import Footer from './Footer/Footer.js';
+
 const data = require('./data.json');
 
 export default function App() {
@@ -14,7 +16,6 @@ export default function App() {
     const handleClick = () => {
         // scroll to anchor point
         let activeEl = document.getElementById(event.target.value);
-
         if (activeEl !== null) {
             activeEl.scrollIntoView({behavior:'smooth'});
             activeEL = '';
@@ -29,8 +30,8 @@ export default function App() {
         <Main
             handleClick = {handleClick}
         />
-
         <Carousel />
+        <Footer handleClick= {handleClick} />
     </>
     )
 };

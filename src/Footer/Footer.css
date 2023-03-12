@@ -1,0 +1,42 @@
+#footer {
+    display: grid;
+    grid-template-columns: 20px 1fr 1fr 1fr;
+    height: fit-content;
+    align-items: center;
+    background-color: var(--black-transparent);
+    position: relative;
+    width: 100vw;
+    color: white;
+    padding: 1%;
+}
+
+#footer li {
+    list-style: none;
+    cursor: pointer;
+    width: fit-content;
+}
+
+footer li:hover{
+    color:grey
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: grey;
+}
